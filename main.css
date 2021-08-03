@@ -1,0 +1,172 @@
+<style>
+		body{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			position: relative;
+		}
+		#header{
+			background-color: rgb(228,228,228);
+		}
+		.icons-top a{
+			color: black;
+		}
+		.icons-top a:{
+			color: black;
+		}
+		.home{
+			color: rgb(84,134,253);
+		}
+		.home:after{
+			width: 50px;
+			height: 3px;
+			background-color: rgb(84,134,253);
+			content: "";
+			display: block;
+			margin: 1px 0px;
+		}
+		ul li{
+			padding: 10px 30px;
+		}
+		ul li a{
+			color: black;
+			font-family: verdana;
+
+		}
+		.star{
+			color: rgb(84,134,253);
+			font-size: 15px;
+		}
+		.ustar{
+			color: rgb(178,186,202);
+			font-size: 15px;
+		}
+		
+        .figure a:hover{
+			color: gold;
+
+		}
+		}
+		.quotes{
+			color: rgb(178,186,202);
+			font-size: 30px;
+		}
+		.fut{
+			font-size: 20px;
+		}
+		.fut p{
+            color: white;
+		}
+		.fut ul{
+			list-style: none;
+		}
+		.fut a:hover{
+			text-decoration: none;
+			color: rgb(171,172,172);
+		}
+		.fut li a{
+			color: rgb(171,172,172);
+		}
+		.last-icons{
+			font-size: 25px;
+			padding: 5px;
+			color: black;
+		}
+		.last-icons:hover{
+			color: white;
+		}
+		.department a{
+			display: block;
+			text-decoration: none;
+			color: black;
+			margin-left: 5px;
+		}
+		.min-max{
+			font-size: 13px;
+			width: 40px;
+			margin-top: 3px;
+			
+
+		}
+		.pages{
+			border-radius: 5px;
+			margin-left: -20px;
+			margin-right: -3px;
+			background-color: rgb(239,240,242);
+			color: black;
+			padding: 7px 15px;
+			box-shadow: 1px 1px gray;
+		}
+		.pagination ul{
+			list-style: none;
+		}
+		.pagination ul li{
+			display: inline-block;
+		}
+		.pagination ul li a{
+			text-decoration: none;
+		}
+		.active-page{
+			color: blue;
+		}
+		.cont{
+           display: grid;
+           grid-template-columns: 252px 252px 252px 252px;
+           grid-gap: 24px;
+       }
+       .back-results{
+       	color: gray;
+       	text-decoration: none;
+       }
+       .back-results:hover{
+       	color: gray;
+       	text-decoration: none;
+       }
+       .two{
+       	 display: grid;
+         grid-template-columns: 2fr 2fr;
+           
+       }
+       .three{
+       	 display: grid;
+         grid-template-columns: 2fr 2fr 2fr;
+           
+       }
+       .four{
+       	display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+           
+
+       }
+       .contain{
+       	display: grid;
+       	grid-template-columns: 1fr 2fr;
+       }
+      .box-container{
+      	width: 82%;
+      	border:1px solid gray;
+        padding: 5px 10px;
+       
+        
+
+      }
+      .search{
+      	
+      	padding: 0px 5px;
+        display: inline-block;
+        
+      	border:none;
+      }
+      .search:focus{
+      	outline: none;
+      }
+       .icon-size{
+       	font-size: 30px;
+       	margin-top: 8px;
+       	margin-left: 20px;
+       }
+       ul li{
+       	margin-top: -17px;
+       	margin-left: -19px;
+       }
+	</style>
